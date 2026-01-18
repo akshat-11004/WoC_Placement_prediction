@@ -87,11 +87,12 @@ Models were evaluated on a **held-out test set** using:
 
 ## 🧪 Model Performance Comparison
 
-| Model | Accuracy | ROC-AUC | F1-Score |
-|----|--------|--------|---------|
-XGBoost | 0.794 | 0.875 | 0.747 |
-LightGBM | **0.794** | **0.875** | **0.748** |
-Random Forest | 0.792 | 0.872 | 0.762 |
+| Model         | Accuracy  | ROC-AUC | F1-Score  |
+| ------------- | --------- | ------- | --------- |
+| XGBoost       | 0.796     | 0.875   | 0.746     |
+| LightGBM      | 0.795    | **0.875**   | 0.747   |
+| Random Forest | 0.798 | 0.872   | 0.765 |
+
 
 ### 🏆 Best Model: **LightGBM**
 - Achieved the **highest ROC-AUC**
